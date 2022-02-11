@@ -88,38 +88,47 @@ export default {
     {
       type: "text/JavaScripts",
       src: "https://prium.github.io/falcon/v3.5.0/vendors/popper/popper.min.js",
+      body: true,
     },
     {
       type: "text/JavaScripts",
-      src: "https://prium.github.io/falcon/v3.5.0/vendors/bootstrap/bootstrap.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/bootstrap/bootstrap.min.js",
+      body: true,
     },
     {
       type: "text/JavaScripts",
-      src: "https://prium.github.io/falcon/v3.5.0/vendors/is/is.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/is/is.min.js",
+      body: true,
     },
     {
       type: "text/JavaScripts",
-      src: "https://prium.github.io/falcon/v3.5.0/vendors/echarts/echarts.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/echarts/echarts.min.js",
+      body: true,
     },
     {
       type: "text/JavaScripts",
-      src: "https://prium.github.io/falcon/v3.5.0/vendors/fontawesome/all.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/fontawesome/all.min.js",
+      body: true,
     },
     {
       type: "text/JavaScripts",
-      src: "https://prium.github.io/falcon/v3.5.0/vendors/lodash/lodash.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/lodash/lodash.min.js",
+      body: true,
     },
     {
       type: "text/JavaScripts",
-      src: "https://polyfill.io/v3/polyfill.min.js?features=window.scroll"
+      src: "https://polyfill.io/v3/polyfill.min.js?features=window.scroll",
+      body: true,
     },
     {
       type: "text/JavaScripts",
-      src: "https://prium.github.io/falcon/v3.5.0/vendors/list.js/list.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/list.js/list.min.js",
+      body: true,
     },
     {
       type: "text/JavaScripts",
-      src: "https://prium.github.io/falcon/v3.5.0/assets/js/theme.js"
+      src: "https://prium.github.io/falcon/v3.5.0/assets/js/theme.js",
+      body: true,
     }
   
     
