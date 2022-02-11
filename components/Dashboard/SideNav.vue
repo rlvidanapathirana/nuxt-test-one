@@ -17,7 +17,7 @@
                   </a>
                   <ul class="nav collapse show" id="dashboard" style="">
                     <li class="nav-item"><a class="nav-link active" href="index.html" aria-expanded="false">
-                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">Default</span></div>
+                        <div class="d-flex align-items-center"><span class="nav-link-text ps-1">All Product</span></div>
                       </a><!-- more inner pages-->
                     </li>
                     <li class="nav-item"><a class="nav-link" href="dashboard/analytics.html" aria-expanded="false">
