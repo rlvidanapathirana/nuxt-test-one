@@ -79,47 +79,47 @@ export default {
     // JavaScripts
     script: [{
       type: "text/JavaScripts",
-      src: "assets/js/config.js",
+      src: "https://prium.github.io/falcon/v3.5.0/assets/js/config.js",
     }, 
     {
       type: "text/JavaScripts",
-      src:"assets/js/OverlayScrollbars.min.js",
+      src:"https://prium.github.io/falcon/v3.5.0/vendors/overlayscrollbars/OverlayScrollbars.min.js",
     },
     {
       type: "text/JavaScripts",
-      src: "assets/js/popper.min.js",
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/popper/popper.min.js",
     },
     {
       type: "text/JavaScripts",
-      src: "assets/js/bootstrap.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/bootstrap/bootstrap.min.js"
     },
     {
       type: "text/JavaScripts",
-      src: "assets/js/is.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/is/is.min.js"
     },
     {
       type: "text/JavaScripts",
-      src: "assets/js/echarts.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/echarts/echarts.min.js"
     },
     {
       type: "text/JavaScripts",
-      src: "assets/js/all.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/fontawesome/all.min.js"
     },
     {
       type: "text/JavaScripts",
-      src: "vendors/lodash/lodash.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/lodash/lodash.min.js"
     },
     {
       type: "text/JavaScripts",
-      src: "assets/js/polyfill.min.js?features=window.scroll"
+      src: "https://polyfill.io/v3/polyfill.min.js?features=window.scroll"
     },
     {
       type: "text/JavaScripts",
-      src: "assets/js/list.min.js"
+      src: "https://prium.github.io/falcon/v3.5.0/vendors/list.js/list.min.js"
     },
     {
       type: "text/JavaScripts",
-      src: "assets/js/theme.js"
+      src: "https://prium.github.io/falcon/v3.5.0/assets/js/theme.js"
     }
   
     
