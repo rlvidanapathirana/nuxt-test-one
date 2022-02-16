@@ -1,6 +1,6 @@
 <template>
   <div>
-       <h1 class="my-3">All Product Table </h1> <hr>                  
+       <h1 class="my-3">All Customers </h1> <hr>                  
                     
 
        <div class="tab-pane preview-tab-pane active" role="tabpanel" aria-labelledby="tab-dom-e02fd9ca-cd33-4a08-9dd0-328584109269" id="dom-e02fd9ca-cd33-4a08-9dd0-328584109269">
@@ -8,9 +8,8 @@
                         <table class="table">
                           <thead>
                             <tr>
-                              <th scope="col">Title</th>
-                              <th scope="col">Description</th>
-                              <th scope="col">Price</th>
+                              <th scope="col">Name</th>
+                              <th scope="col">Email</th>
                               <th scope="col">Updated at</th>
                               <th class="text-end" scope="col">Actions</th>
                             </tr>
@@ -19,13 +18,12 @@
                             <tr v-for="product in products" :key="product">
                               <td>{{ product.title }}</td>
                               <td>{{ product.description }}</td>
-                              <td>{{ product.price }}</td>
                               <td>{{ product.updated_at }}</td>
                               <td class="text-end d-flex flex-row-reverse gap-2">
                                 <div>
-                                  <nuxt-link class="btn btn-primary btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Edit" aria-label="Edit" :to="{ name: `products-edit`,params: { edit: product.id } }"> Edit </nuxt-link></div>
-                                <div>
-                                  <button class="btn btn-danger btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="delete" aria-label="delete" @click="deleteProduct(product.id)"> Delete </button></div>
+                                    <nuxt-link class="btn btn-primary btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="Edit" aria-label="Edit" :to="{ name: `customers-edit`,params: { edit: product.id } }"> Edit </nuxt-link></div>
+                                <div
+                                ><button class="btn btn-danger btn-sm" type="button" data-bs-toggle="tooltip" data-bs-placement="top" title="" data-bs-original-title="delete" aria-label="delete" @click="deleteProduct(product.id)"> Delete </button></div>
                               </td>
                             </tr>
                            
