@@ -1,7 +1,8 @@
 <template>
   <div>
        <h1 class="my-3">All Product Table </h1> <hr>                  
-                    
+
+        <div class="col-auto d-flex flex-row-reverse"><nuxt-link to="/products/add" class="btn btn-sm btn-primary px-4 ms-2 " type="button" data-list-pagination="next"><span>Add New Product</span></nuxt-link></div>            
 
        <div class="tab-pane preview-tab-pane active" role="tabpanel" aria-labelledby="tab-dom-e02fd9ca-cd33-4a08-9dd0-328584109269" id="dom-e02fd9ca-cd33-4a08-9dd0-328584109269">
                       <div class="table-responsive scrollbar">

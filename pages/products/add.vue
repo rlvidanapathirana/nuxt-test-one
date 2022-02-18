@@ -1,6 +1,8 @@
 <template>
     <div>
-        <h1 class="my-3">Add Custommer</h1> <hr>   
+        <h1 class="my-3">Add Products</h1> <hr>   
+
+        <div class="col-auto d-flex flex-row-reverse"><nuxt-link to="/products" class="btn btn-sm btn-primary px-4 ms-2 " type="button" data-list-pagination="next"><span>Back</span></nuxt-link></div>   
 
         <form @submit.prevent="formSubmit()">
             <div class="mb-3"><label class="form-label" for="exampleFormControlInput1">Product title</label>
